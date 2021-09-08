@@ -1,5 +1,5 @@
-const crypto = require("crypto");
 const fetch = require('node-fetch');
+const crypto = require("crypto");
 
 export function malClient(CLIENT_ID, CLIENT_SECRET, state) {
     this.CLIENT_ID = CLIENT_ID;
